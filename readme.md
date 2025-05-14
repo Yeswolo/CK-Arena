@@ -9,24 +9,33 @@ This project implements a language model-based version of the popular social ded
 ## Project Structure
 
 ```
-├── agents/
-│   ├── judge_agent.py     # LLM-based judge implementation
-│   ├── player_agent.py    # LLM-based player implementation
-│   ├── prompts.py         # Contains prompt templates for different languages
-│   └── utils.py           # Utility functions for API calls
+├── undecover/
+│   ├── agents                 
+│   │   ├── player_agent.py    # LLM-based player implementation
+│   │   ├── judge_agent.py     # LLM-based judge implementation
+│   │   ├── prompts.py         # Contains prompt templates for different languages
+│   │   └── utils.py           # Utility functions for API calls
+│   ├── game.py                # Core game logic and state management
+│   ├── judge.py               # Abstract base class for judges
+│   └── player.py              # Abstract base class for players
 ├── data/
-│   └── word_list_1/       # Contains word pairs for the game
+│   └── word_list_1/           # Contains word pairs for the game
 │       ├── cn_755/
 │       └── ...
 ├── logs/
-│   ├── en/                # Game records in English
-│   ├── zh/                # Game records in Chinese
-│   └── fr/                # Game records in French
-├── undercover/
-│   ├── game.py            # Core game logic and state management
-│   ├── judge.py           # Abstract base class for judges
-│   └── player.py          # Abstract base class for players
-└── main.py                # Entry point for running games
+│   └── en/                    # Game records in English
+├── undercover_audience/
+│   ├── agents               
+│   │   ├── audience_agent.py  # LLM-based audience implementation
+│   │   ├── player_agent.py    # LLM-based player implementation
+│   │   ├── judge_agent.py     # LLM-based judge implementation
+│   │   ├── prompts.py         # Contains prompt templates for different languages
+│   │   └── utils.py           # Utility functions for API calls
+│   ├── game.py                # Core game logic and state management
+│   ├── audience.py            # Abstract base class for audiences
+│   ├── judge.py               # Abstract base class for judges
+│   └── player.py              # Abstract base class for players
+└── main.py                    # Entry point for running games
 ```
 
 ## Key Components
@@ -45,7 +54,7 @@ This project implements a language model-based version of the popular social ded
 ### Multi-language Support
 
 The game supports multiple languages through language-specific prompt templates:
-- English (en)
+- English (en) (Experimental used)
 - Chinese (zh)
 - French (fr)
 - Spanish (es)
@@ -55,6 +64,7 @@ The game supports multiple languages through language-specific prompt templates:
 - Russian (ru)
 - Arabic (ar)
 - Japanese (ja)
+(TODO)
 
 ## How to Run
 
