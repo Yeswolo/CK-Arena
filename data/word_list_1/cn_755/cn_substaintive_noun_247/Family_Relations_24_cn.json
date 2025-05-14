@@ -1,0 +1,26 @@
+[
+    ["父亲", "母亲"],
+    ["令尊", "令堂"],//chinese only
+    ["岳父", "岳母"],//chinese only
+    ["兄弟", "姐妹"],
+    ["祖父", "祖母"],
+    ["外祖父","外祖母"],//chinese only
+    ["爷爷", "奶奶"], //chinese only
+    ["祖父", "外公"], //chinese only
+    ["奶奶", "姥姥"], //chinese only
+    ["公公", "婆婆"], //chinese only
+    ["儿媳", "女婿"], //chinese only
+    ["连襟", "妯娌"], //chinese only
+    ["叔叔", "阿姨"],
+    ["儿子", "女儿"],
+    ["家庭", "亲属"],
+    ["表兄", "堂兄"], //chinese only
+    ["表姐", "堂姐"], //chinese only
+    ["舅舅", "叔叔"], //chinese only
+    ["叔叔", "伯伯"], //chinese only
+    ["伯伯", "舅舅"], //chinese only
+    ["姑",   "姨"],  //chinese only
+    ["祖父", "曾祖父"], //chinese only
+    ["曾孙", "玄孙"] //chinese only
+    ["正房", "偏房"] //chinese only
+]
