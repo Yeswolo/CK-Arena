@@ -1,7 +1,6 @@
 [
     ["flood", "drought"],
     ["tsunami", "volcano"],
-    // ["earthquake", "planet"], to be removed
     ["volcano", "earthquake"],
     ["volcano", "eruption"],
     ["tornado", "hurricane"]

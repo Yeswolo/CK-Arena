@@ -7,6 +7,6 @@
     ["voltage", "current"],
     ["microprocessor", "microcontroller"],
     ["inductor", "coil"],
-    ["light", "bulb"],//moved from misc
-    ["microchip", "processor"]//moved from misc 
+    ["light", "bulb"],
+    ["microchip", "processor"]
 ]

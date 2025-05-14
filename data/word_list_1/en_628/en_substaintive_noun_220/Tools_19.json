@@ -11,11 +11,10 @@
     ["scalpel", "scissors"],
     ["eraser", "sharpener"],
     ["file", "grinder"],
-    //["forceps", "skyscraper"], to be removed
     ["wrench", "spanner"],
     ["pliers", "wrench"],
     ["scalpel", "forceps"],
-    ["bandage", "gauze"], //moved from misc
-    ["syringe", "needle"], //moved from misc
-    ["stethoscope", "thermometer"] //moved from misc
+    ["bandage", "gauze"],
+    ["syringe", "needle"],
+    ["stethoscope", "thermometer"]
 ]
