@@ -64,7 +64,6 @@ The game supports multiple languages through language-specific prompt templates:
 - Russian (ru)
 - Arabic (ar)
 - Japanese (ja)
-(TODO)
 
 ## How to Run
 
